@@ -1,5 +1,5 @@
 from django.urls import path 
-from jarvischef.views import Home  
+from Nutricoach.views import Home  
 
 
 urlpatterns= [ 

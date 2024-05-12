@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.views import View
-from jarvischef.forms import RecipeForm
-from jarvischef.langchain import askJarvisChef
+from Nutricoach.forms import RecipeForm
+from Nutricoach.langchain import askJarvisChef
 
 class Home(View):
     def get(self, request):
